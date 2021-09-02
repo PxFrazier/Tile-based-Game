@@ -1,0 +1,51 @@
+.game
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 100px;
+	background-color: black;
+}
+
+#menu
+{
+	background-color: white;
+	border-radius: 0.5em;
+}
+
+img
+{
+	border-bottom-color: black;
+	border-style: solid;
+	height: 10em;
+	width: 10em;
+	border-radius: 0.5em;
+}
+
+#player
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: left;
+}
+
+.status-bar
+{
+	text-align: left;
+}
+
+#inventory
+{
+	margin-top: 0.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 0.5em;
+}
+
+#inventory > div
+{
+	height: 6em;
+	width: 6em;
+	text-align: center;
+	background-color: blue;
+	border-radius: 0.5em;
+}
