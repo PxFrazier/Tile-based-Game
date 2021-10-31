@@ -187,7 +187,7 @@ class Camera
 		if(this.startTile[1] < 0)
 			this.startTile[1] = 0;
 		
-		this.endTile[0] = tile[0] + 6
+		this.endTile[0] = tile[0] + 6 +
 			Math.ceil((this.screen[0] / 2) / this.tileWidth);
 		this.endTile[1] = tile[1] + 6 +
 			Math.ceil((this.screen[1] / 2) / this.tileHeight);
